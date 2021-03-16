@@ -1,10 +1,17 @@
-# Getting Started with Create React App
+# Greed Kata(with logics)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Rules
 
-## Available Scripts
-
-In the project directory, you can run:
+Dice(s)                 | Scores
+----------------------- | ------
+A single 1              | 100
+A single 5              | 50
+Triple 1s (\[1, 1, 1\]) | 1000
+Triple 1s (\[2, 2, 2\]) | 200
+Triple 1s (\[3, 3, 3\]) | 300
+Triple 1s (\[4, 4, 4\]) | 400
+Triple 1s (\[5, 5, 5\]) | 500
+Triple 1s (\[6, 6, 6\]) | 600
 
 ### `yarn start`
 
