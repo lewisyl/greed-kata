@@ -2,24 +2,24 @@
 
 ## Rules
 
-Dice(s)                 | Scores
+Dice(s)                 | Points Earn
 ----------------------- | ------
 A single 1              | 100
 A single 5              | 50
 Triple 1s (\[1, 1, 1\]) | 1000
-Triple 1s (\[2, 2, 2\]) | 200
-Triple 1s (\[3, 3, 3\]) | 300
-Triple 1s (\[4, 4, 4\]) | 400
-Triple 1s (\[5, 5, 5\]) | 500
-Triple 1s (\[6, 6, 6\]) | 600
+Triple 2s (\[2, 2, 2\]) | 200
+Triple 3s (\[3, 3, 3\]) | 300
+Triple 4s (\[4, 4, 4\]) | 400
+Triple 5s (\[5, 5, 5\]) | 500
+Triple 6s (\[6, 6, 6\]) | 600
 
-### `yarn start`
+### Examples
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+\[1,1,1,5,1\] = 1150 points
+\[2,3,4,6,2\] = 0 points
+\[3,4,5,3,3\] = 350 points
+\[1,5,1,2,4\] = 250 points
+\[5,5,5,5,5\] = 600 points
 
 ### `yarn test`
 
