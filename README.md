@@ -1,6 +1,6 @@
 # Greed Kata
 Live Demo: [Greed-Kata](https://lewisyl.github.io/greed-kata/)\
-I just made this most simple and ugly react app only for showing how this game and the logic behind the sense work. Everything is in the App.js.
+I just made this most simple and ugly react app only for showing how this game and the logic behind the sense work. Everything is in src/App.js.
 
 ## During Development (For Interview Reviewers Only)
 
