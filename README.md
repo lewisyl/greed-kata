@@ -1,6 +1,11 @@
-# Greed Kata(with logics)
-Description\
+# Greed Kata
+Live Demo: [Greed-Kata]()\
+I just made this most simple and ugly react app only for showing how this game and the logic behind the sense work. Everything is in the App.js.
+
+## Description
+
 Greed is a press-your-luck dice rolling game. In the game, the roller will be rolling dice trying to earn as many points as possible. For the purposes of this kata, we will just be scoring a single roll of five dice.
+
 ## Rules
 
 Dice(s)                 | Points Earn

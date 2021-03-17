@@ -86,7 +86,7 @@ function App() {
 					triggers={["Enter"]}
 				/>
 			</div>
-			<h3>You final points: {finalPoints}!</h3>
+			<h3>You final points: {finalPoints}</h3>
 		</div>
 	);
 }
