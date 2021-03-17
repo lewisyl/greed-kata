@@ -9,7 +9,8 @@ I just made this most simple and ugly react app only for showing how this game a
 - Dictionary or 6 int variables to hold the face counts?
 - If I set 6 keys from 1 - 6 as the faces of dice, how to increase the counts(values).
 - After having a dictionary of the counts of current array, which statement I should use to make the main logic? `switch` or `foreach` statement?
-- After counting triple's points, how to count the rest two values if there is 1 or 5 without re-counting the counted ones?
+- After counting triple's points, how to count the rest two values if there is 1 or 5 without re-counting the counted ones?\
+
 After moving project to React App:
 - After moving my project to React, `forEach` didn't work anymore, need to come up with something else(ended up with for loops)
 
