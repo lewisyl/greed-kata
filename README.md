@@ -5,27 +5,27 @@ I just made this most simple and ugly react app only for showing how this game a
 ## During Development (For Interview Reviewers Only)
 
 ### Questions that I came up with
-- The first question after I saw the rules but before examples was if the triple rule only applied on consecutive same numbers. (If yes, I'm not going to play this game for sure...)
+- The first question after I saw the rules but before examples was if the triple rule only applied on consecutive same numbers. 
 - Dictionary or 6 int variables to hold the face counts?
 - If I set 6 keys from 1 - 6 as the faces of dice, how to increase the counts(values).
 - After having a dictionary of the counts of current array, which statement I should use to make the main logic? `switch` or `foreach` statement?
 - After counting triple's points, how to count the rest two values if there is 1 or 5 without re-counting the counted ones?
 
    After moving project to React App:
-- After moving my project to React, `forEach` didn't work anymore, need to come up with something else(ended up with for loops)
+- `forEach` didn't work anymore, need to come up with something else(ended up with for loops)
 
 ### Assumptions I made
-- I chose to use dictionary because it is fast and clean.
-- I decided to use `foreach` because it makes my code shorter.
-- 
+- I assume we need to roll ALL dice every time instead of having an option to click on a die and re-roll it because it doesn't make sense to this kind of game.
+- I assume we have 0 point at the begining, and reset the point after each rolling. 
+- I assume you all like my work...:-)
 
 
 ### The different paths or solutions I contemplated
-- Without using dictionary, we can instead use multiple for loops and if statement, but the code would be super long. 
+- Switch statement would also work fine for solving this problem.
+- Without using dictionary, we can instead use multiple variables to hold the counts for each number
     - let faceOne = 0, faceTwo = 0, ..., faceSix = 0, sum = 0;
     - Loop thru the arr, add 1 to the relevant ones as the counts
-    - long if-else statement to go thru all rules, add points to sum if any
-- Switch statement would also work fine for solving this problem.
+    - long `if` statement to go thru all rules, add points to sum if any
 
 ## Game Description
 
