@@ -28,6 +28,8 @@ I just made this most simple and ugly react app only for showing how this game a
     - Loop thru the arr, add 1 to the relevant ones as the counts
     - long `if` statement to go thru all rules, add points to sum if any
 
+---
+
 ## Game Description
 
 Greed is a press-your-luck dice rolling game. In the game, the roller will be rolling dice trying to earn as many points as possible. For the purposes of this kata, we will just be scoring a single roll of five dice.
