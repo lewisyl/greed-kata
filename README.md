@@ -17,7 +17,7 @@ I just made this most simple and ugly react app only for showing how this game a
 ### Assumptions I made
 - I assume we need to roll ALL dice every time instead of having an option to click on a die and re-roll it because it doesn't make sense to this kind of game.
 - I assume we have 0 point at the begining, and reset the point after each rolling. 
-- I assume you all like my work...:-)
+- I assume you all like my work... :-)
 
 
 ### The different paths or solutions I contemplated
