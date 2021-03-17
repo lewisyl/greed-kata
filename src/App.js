@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import Dice from "react-dice-roll";
 
 function App() {
-	let arr = [];
 	const [finalPoints, setFinalPoints] = useState(0);
+	let arr = [];
 
+	// Solution of the Main Requirement is in this function:
 	const getPoints = (arr) => {
 		const result = {
 			1: 0,
