@@ -30,3 +30,7 @@ Triple 6s (\[6, 6, 6\]) | 600
 
 
 ### The different paths or solutions I contemplated
+- Without using dictionary, we can instead use multiple for loops and if statement, but the code would be super long. 
+    - let faceOne = 0, faceTwo = 0, ..., faceSix = 0, points = 0;
+    - Loop thru the arr, add 1 to the relevant ones as the counts
+    - long if-else statement to go thru all rules
