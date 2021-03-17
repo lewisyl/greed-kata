@@ -2,11 +2,25 @@
 Live Demo: [Greed-Kata]()\
 I just made this most simple and ugly react app only for showing how this game and the logic behind the sense work. Everything is in the App.js.
 
-## Description
+## During Development (For Interview Reviewers Only)
+
+### Questions that I came up with
+
+
+### Assumptions I made
+
+
+### The different paths or solutions I contemplated
+- Without using dictionary, we can instead use multiple for loops and if statement, but the code would be super long. 
+    - let faceOne = 0, faceTwo = 0, ..., faceSix = 0, sum = 0;
+    - Loop thru the arr, add 1 to the relevant ones as the counts
+    - long if-else statement to go thru all rules, add points to sum if any
+
+## Game Description
 
 Greed is a press-your-luck dice rolling game. In the game, the roller will be rolling dice trying to earn as many points as possible. For the purposes of this kata, we will just be scoring a single roll of five dice.
 
-## Rules
+## Game Rules
 
 Dice(s)                 | Points Earn
 ----------------------- | -----------
@@ -26,17 +40,3 @@ Triple 6s (\[6, 6, 6\]) | 600
 \[3, 4, 5, 3, 3\] = 350 points\
 \[1, 5, 1, 2, 4\] = 250 points\
 \[5, 5, 5, 5, 5\] = 600 points
-
-## During Development
-
-### Questions that I came up with
-
-
-### Assumptions I made
-
-
-### The different paths or solutions I contemplated
-- Without using dictionary, we can instead use multiple for loops and if statement, but the code would be super long. 
-    - let faceOne = 0, faceTwo = 0, ..., faceSix = 0, sum = 0;
-    - Loop thru the arr, add 1 to the relevant ones as the counts
-    - long if-else statement to go thru all rules, add points to sum if any
