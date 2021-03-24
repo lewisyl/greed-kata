@@ -1,50 +1,21 @@
 import React, { useState } from "react";
 import Dice from "react-dice-roll";
+import getAllPoints from "./getPoints";
 
 function App() {
 	const [finalPoints, setFinalPoints] = useState(0);
+	const [totalPoints, setTotalPoints] = useState(0);
+
 	let arr = [];
 
 	// Solution of the Main Requirement is in this function:
 	const getPoints = (arr) => {
-		const result = {
-			1: 0,
-			2: 0,
-			3: 0,
-			4: 0,
-			5: 0,
-			6: 0,
-		};
-		for (let i = 0; i < 6; i++) {
-			result[arr[i]]++;
-		}
-		let points = 0;
-
-		for (let k = 0; k < 6; k++) {
-			if (result[k] >= 3) {
-				if (k === 1) {
-					points += 1000;
-				} else {
-					points += k * 100;
-				}
-				result[k] -= 3;
-				if (k === 1) {
-					points += result[k] * 100;
-				}
-				if (k === 5) {
-					points += result[k] * 50;
-				}
-			} else {
-				if (k === 1) {
-					points += result[k] * 100;
-				}
-				if (k === 5) {
-					points += result[k] * 50;
-				}
-			}
-		}
+		let points = getAllPoints({ arr });
+		setTotalPoints((p) => p + points);
 		setFinalPoints(points);
 	};
+
+	// console.log(getPoints([6, 6, 6, 6, 6, 6]));
 
 	return (
 		<div style={{ textAlign: "center" }}>
@@ -88,6 +59,7 @@ function App() {
 				/>
 			</div>
 			<h3>You final points: {finalPoints}</h3>
+			<h3>Total Points: {totalPoints}</h3>
 		</div>
 	);
 }
