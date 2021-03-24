@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/greed-kata/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/greed-kata/static/js/main.da151efe.chunk.js",
-    "main.js.map": "/greed-kata/static/js/main.da151efe.chunk.js.map",
+    "main.js": "/greed-kata/static/js/main.828a5e2d.chunk.js",
+    "main.js.map": "/greed-kata/static/js/main.828a5e2d.chunk.js.map",
     "runtime-main.js": "/greed-kata/static/js/runtime-main.ff8bcf08.js",
     "runtime-main.js.map": "/greed-kata/static/js/runtime-main.ff8bcf08.js.map",
-    "static/js/2.42dacbaa.chunk.js": "/greed-kata/static/js/2.42dacbaa.chunk.js",
-    "static/js/2.42dacbaa.chunk.js.map": "/greed-kata/static/js/2.42dacbaa.chunk.js.map",
+    "static/js/2.2ea60507.chunk.js": "/greed-kata/static/js/2.2ea60507.chunk.js",
+    "static/js/2.2ea60507.chunk.js.map": "/greed-kata/static/js/2.2ea60507.chunk.js.map",
     "static/js/3.dd554280.chunk.js": "/greed-kata/static/js/3.dd554280.chunk.js",
     "static/js/3.dd554280.chunk.js.map": "/greed-kata/static/js/3.dd554280.chunk.js.map",
     "index.html": "/greed-kata/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/greed-kata/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.42dacbaa.chunk.js.LICENSE.txt": "/greed-kata/static/js/2.42dacbaa.chunk.js.LICENSE.txt"
+    "static/js/2.2ea60507.chunk.js.LICENSE.txt": "/greed-kata/static/js/2.2ea60507.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ff8bcf08.js",
-    "static/js/2.42dacbaa.chunk.js",
+    "static/js/2.2ea60507.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.da151efe.chunk.js"
+    "static/js/main.828a5e2d.chunk.js"
   ]
 }
