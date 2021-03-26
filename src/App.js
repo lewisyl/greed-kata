@@ -8,14 +8,11 @@ function App() {
 
 	let arr = [];
 
-	// Solution of the Main Requirement is in this function:
 	const getPoints = (arr) => {
 		let points = getAllPoints({ arr });
 		setTotalPoints((p) => p + points);
 		setFinalPoints(points);
 	};
-
-	// console.log(getPoints([6, 6, 6, 6, 6, 6]));
 
 	return (
 		<div style={{ textAlign: "center" }}>
